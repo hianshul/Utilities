@@ -12,7 +12,7 @@ namespace MultiThreadingExamples
         {
             //Join example
             JoinExample.Call();
-
+            //Sleep example
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("Sleep Complete");
             Console.Read();
